@@ -71,6 +71,9 @@ p{
 }
 .wwd-cards{
   text-align: center;
+  flex-direction: row;
+  justify-content: center;
+
 }
 .portfolio{
   float: left;
@@ -85,4 +88,13 @@ p{
 .img-grid{
   width: 100%;
   height: auto;
+}
+.design-hidden{
+  display:none;
+}
+.development-hidden{
+  display:none;
+}
+.pm-hidden{
+  display:none;
 }
