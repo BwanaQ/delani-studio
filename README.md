@@ -5,7 +5,7 @@
 A website that mocks a developer studio to test knowledge of bootstrap and jQuery mostly
 ## Setup/Installation Requirements
 1. clone this repo
-    `git clone https://github.com/BwanaQ/delani-studio.git
+    ```git clone https://github.com/BwanaQ/delani-studio.git
 1. run index.html on a browser
 
 ## Live Site
