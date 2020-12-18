@@ -2,7 +2,7 @@
 #### An application submitted for week 3 at MPFT 38, 18th Dec, 2020
 #### By **Tom Hunja**
 ## Description
-A simple application that accepts a date of birth and gender and returns your Akan name
+A website that mocks a developer studio to test knowledge of bootstrap and jQuery mostly
 ## Setup/Installation Requirements
 * clone https://github.com/BwanaQ/delani-studio.git
 * run index.html on a browser
