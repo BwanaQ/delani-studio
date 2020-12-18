@@ -19,7 +19,7 @@
     <title>Delani Studio</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row head-section">
         <div class="col-12 logo">
           <img src="./assets/images/logo/logo.png" alt="logo">
@@ -96,7 +96,7 @@
         </div>
       </div>  
       <div class="row padded">
-        <div class="col-3 portfolio" style="padding-top: 20px;">
+        <div class="col-3 portfolio">
           <img class="img-grid" src="assets/images/portfolio/work4.jpg">
         </div>  
         <div class="col-3 portfolio">
@@ -122,9 +122,15 @@
         </div>
       </div>
       <div class="row contact-us">
-        <div class="col-6">
-
-        </div>
+        <form action="/action_page.php">
+          <div class="form-group col-6">
+            <input type="name" class="transparent" placeholder="Name..." id="email">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email..." id="email">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
       </div>  
     </div>
