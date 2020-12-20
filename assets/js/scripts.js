@@ -13,4 +13,13 @@ $(document).ready(function() {
     $(".pm-showing").toggle();
     $(".pm-hidden").toggle();
   });
+  
+
+  $('#content1').hover(
+    function() {
+      $('#inter1').fadeIn();
+    }, function() {
+      $('#inter1').fadeOut();
+    }
+  );
 });
