@@ -22,4 +22,64 @@ $(document).ready(function() {
       $('#inter1').fadeOut();
     }
   );
+
+  $('#content2').hover(
+    function() {
+      $('#inter2').fadeIn();
+    }, function() {
+      $('#inter2').fadeOut();
+    }
+  );
+
+  $('#content3').hover(
+    function() {
+      $('#inter3').fadeIn();
+    }, function() {
+      $('#inter3').fadeOut();
+    }
+  );
+
+  $('#content4').hover(
+    function() {
+      $('#inter4').fadeIn();
+    }, function() {
+      $('#inter4').fadeOut();
+    }
+  );
+
+  $('#content5').hover(
+    function() {
+      $('#inter5').fadeIn();
+    }, function() {
+      $('#inter5').fadeOut();
+    }
+  );
+
+  $('#content6').hover(
+    function() {
+      $('#inter6').fadeIn();
+    }, function() {
+      $('#inter6').fadeOut();
+    }
+  );
+
+  $('#content7').hover(
+    function() {
+      $('#inter7').fadeIn();
+    }, function() {
+      $('#inter7').fadeOut();
+    }
+  );
+
+  $('#content8').hover(
+    function() {
+      $('#inter8').fadeIn();
+    }, function() {
+      $('#inter8').fadeOut();
+    }
+  );
+
 });
+
+var sendMessage=function(){
+}
