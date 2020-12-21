@@ -82,4 +82,8 @@ $(document).ready(function() {
 });
 
 var sendMessage=function(){
+  var name =  document.getElementById("name").value;
+  var email =  document.getElementById("email").value;
+  var namessageme =  document.getElementById("message").value;
+  return(alert(name +" we have received your message. Thank you for reaching out to us."))
 }
