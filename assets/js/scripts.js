@@ -84,6 +84,10 @@ $(document).ready(function() {
 var sendMessage=function(){
   var name =  document.getElementById("name").value;
   var email =  document.getElementById("email").value;
-  var namessageme =  document.getElementById("message").value;
-  return(alert(name +" we have received your message. Thank you for reaching out to us."));
+  var message=  document.getElementById("message").value;
+  if(name!==""||email!==""||message!==""){
+    return(alert(name +" we have received your message. Thank you for reaching out to us."));
+  } else {
+    return(alert("All fields are required"));
+  }
 }
