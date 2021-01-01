@@ -14,7 +14,7 @@ $(document).ready(function() {
     $(".pm-hidden").toggle();
   });
   
-
+  /*
   $('#content1').hover(
     function() {
       $('#inter1').fadeIn();
@@ -78,8 +78,22 @@ $(document).ready(function() {
       $('#inter8').fadeOut();
     }
   );
+  */
 
+  $(".image").each(function(index){
+    var i = index+1;
+    var content = "#content"+ i;
+    var inter = "#inter"+ i;
+    $(content).hover(
+      function() {
+        $(inter).fadeIn();
+      }, function() {
+        $(inter).fadeOut();
+      }
+    );
+  });
 });
+
 
 var sendMessage=function(){
   var name =  document.getElementById("name").value;
@@ -91,3 +105,4 @@ var sendMessage=function(){
     return(alert("All fields are required"));
   }
 }
+
